@@ -1,0 +1,582 @@
+/*Responsividade Media queries*/
+
+@media(max-width: 2300px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 15%;
+  }
+}
+@media(max-width: 2000px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 13%;
+  }
+
+}
+
+@media(max-width: 1850px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 7.5%;
+  }
+
+}
+@media(max-width: 1750px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 5%;
+  }
+
+}
+@media(max-width: 1635px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 2%;
+  }
+  .favoritos{
+    margin-left: 35px;
+  }
+  .estilos
+  {
+    margin-left: 35px;
+  }
+  .plus{
+    margin-left: 35px;
+  }
+  .paraFesta{
+    margin-left: 35px;
+  }
+  .Praia{
+    margin-left: 35px;
+  }
+  .outros{
+    margin-left: 35px;
+  } 
+  .saldo{
+    margin-left: 35px;
+  }
+}
+@media(max-width: 1550px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 1%;
+  }
+  .favoritos{
+    margin-left: 35px;
+  }
+  .estilos
+  {
+    margin-left: 35px;
+  }
+  .plus{
+    margin-left: 35px;
+  }
+  .paraFesta{
+    margin-left: 35px;
+  }
+  .Praia{
+    margin-left: 35px;
+  }
+  .outros{
+    margin-left: 35px;
+  } 
+  .saldo{
+    margin-left: 35px;
+  }
+}
+@media(max-width: 1440px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 0px;
+  }
+  .favoritos{
+    margin-left: 3px;
+  }
+  .estilos
+  {
+    margin-left: 25px;
+  }
+  .plus{
+    margin-left: 25px;
+  }
+  .paraFesta{
+    margin-left: 25px;
+  }
+  .Praia{
+    margin-left: 25px;
+  }
+  .outros{
+    margin-left: 25px;
+  } 
+  .saldo{
+    margin-left: 25px;
+  }
+
+}
+@media(max-width: 1360px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 0px;
+  }
+  .favoritos{
+    margin-left: 3px;
+  }
+  .estilos
+  {
+    margin-left: 15px;
+  }
+  .plus{
+    margin-left: 15px;
+  }
+  .paraFesta{
+    margin-left: 15px;
+  }
+  .Praia{
+    margin-left: 15px;
+  }
+  .outros{
+    margin-left: 15px;
+  } 
+  .saldo{
+    margin-left: 15px;
+  }
+}
+@media(max-width: 1295px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 0px;
+  }
+  .favoritos{
+    margin-left: 3px;
+  }
+  .estilos
+  {
+    margin-left: 5px;
+  }
+  .plus{
+    margin-left: 5px;
+  }
+  .paraFesta{
+    margin-left: 5px;
+  }
+  .Praia{
+    margin-left: 5px;
+  }
+  .outros{
+    margin-left: 5px;
+  } 
+  .saldo{
+    margin-left: 5px;
+  }
+}
+@media(max-width: 1235px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 0px;
+  }
+  .favoritos{
+    margin-left: 0px;
+  }
+  .estilos
+  {
+    margin-left: 0px;
+  }
+  .plus{
+    margin-left: 0px;
+  }
+  .paraFesta{
+    margin-left: 0px;
+  }
+  .Praia{
+    margin-left: 0px;
+  }
+  .outros{
+    margin-left: 0px;
+  } 
+  .saldo{
+    margin-left: 0px;
+  }
+}
+@media(max-width: 1200px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 0px;
+  }
+  .favoritos{
+    margin-left: 0px;
+  }
+  .estilos
+  {
+    margin-left: 0px;
+  }
+  .plus{
+    margin-left: 0px;
+  }
+  .paraFesta{
+    margin-left: 0px;
+  }
+  .Praia{
+    margin-left: 0px;
+  }
+  .outros{
+    margin-left: 0px;
+  } 
+  .saldo{
+    margin-left: 0px;
+  }
+  menu a{
+    padding: 15px;
+  }
+}
+@media(max-width: 1160px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 0px;
+  }
+  .favoritos{
+    margin-left: 0px;
+  }
+  .estilos
+  {
+    margin-left: 0px;
+  }
+  .plus{
+    margin-left: 0px;
+  }
+  .paraFesta{
+    margin-left: 0px;
+  }
+  .Praia{
+    margin-left: 0px;
+  }
+  .outros{
+    margin-left: 0px;
+  } 
+  .saldo{
+    margin-left: 0px;
+  }
+  menu a{
+    padding: 15px;
+  }
+}
+@media(max-width: 1100px) {
+  /*Sessão produtos Plus-Size*/
+.itens .lancamentos{
+    margin-left: 4.5%;
+  }
+  .favoritos{
+    margin-left: 0px;
+  }
+  .estilos
+  {
+    margin-left: 0px;
+  }
+  .plus{
+    margin-left: 0px;
+  }
+  .paraFesta{
+    margin-left: 0px;
+  }
+  .Praia{
+    margin-left: 0px;
+  }
+  .outros{
+    margin-left: 0px;
+  } 
+  .saldo{
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  menu a{
+    padding: 15px;
+  }
+}
+@media (max-width: 1024px){
+  menu a {
+    padding: 10px;
+    margin: 5px;
+  }
+  .itens .lancamentos{
+    margin-left: 7%;
+  }
+  .outros{
+    margin-top: 20px;
+    margin-right: 10px;
+  } 
+  .saldo{
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+}
+@media (max-width: 910px){
+  .saldo{
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .outros{
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  .logo {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 850px){
+.itens .lancamentos{
+    padding-left: 2.5%;
+  }
+  .outros{
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .saldo{
+    margin-top: 5%;
+    margin-left: 30px;
+  }
+  .logo {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 810px){
+  menu .itens{
+    padding-top: 5px;
+    margin: 2px;
+  } 
+  .Praia{
+    margin-left: 10%
+  }
+  .logo {
+    margin-left: 10%;
+  }
+  .nav-icons{
+    column-gap: 0;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 720px){ 
+  .paraFesta{
+    margin-left: 15%
+  }
+  .Praia{
+    margin-left: 25px;
+  }
+  .outros{
+    margin-left: 25px;
+  }
+  .saldo{
+    margin-left: 25px;
+  }
+  .logo{
+    margin-left: 3.5%;
+  }
+  .nav-icons{
+    column-gap: 0;
+    margin-right: 0px;
+  }
+  .logo img{
+    width: 95px;
+  }
+  .swiper{
+    margin-top: 102px;
+  }
+}
+@media (max-width: 633px){
+  menu .itens{
+    padding-top: 5px;
+    margin: 2px;
+  }
+  .itens .lancamentos{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .favoritos{
+    padding-left: 10px;
+  }
+  .estilos{
+    padding-left: 10px;
+  }
+  .plus{
+    padding-left: 10px;
+  }
+  .paraFesta{
+    margin-left: 60px;
+  }
+  .Praia{
+    margin-left: 25px;
+  }
+  .outros{
+    margin-left: 25px;
+  }
+  .saldo{
+    margin-left: 25px;
+  }
+  .logo{
+    margin-left: 1%;
+  }
+  .nav-icons{
+    column-gap: 0;
+    margin-right: 0px;
+  }
+  .swiper{
+    margin-top: 102px;
+  }
+  .whatsappContato img{
+    width: 55px;
+  }
+}
+@media (max-width: 590px){
+  menu .itens{
+    padding-top: 5px;
+    margin: 2px;
+  }
+  menu{
+    padding: 0 0;
+  }
+  .itens .lancamentos{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .favoritos{
+    padding-left: 10px;
+  }
+  .estilos{
+    padding-left: 10px;
+  }
+  .plus{
+    padding-left: 10px;
+  }
+  .paraFesta{
+    margin-left: 60px;
+  }
+  .Praia{
+    margin-left: 25px;
+  }
+  .outros{
+    margin-left: 25px;
+  }
+  .saldo{
+    margin-left: 25px;
+  }
+  .logo{
+    margin-left: 1%;
+  }
+  .nav-icons{
+    column-gap: 0;
+    margin-right: 0px;
+  }
+  .swiper{
+    margin-top: 102px;
+  }
+  .whatsappContato img{
+    width: 55px;
+  }
+}
+@media (max-width: 425px){
+  menu .itens{
+    padding-top: 5px;
+    justify-items: center;
+    margin: 2px;
+  }
+  menu{
+    padding: 0 0;
+  }
+  menu a{
+    padding: 10px;
+  }
+  .itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .itens .lancamentos{
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .favoritos{
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+  .estilos{
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+  .plus{
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+  .paraFesta{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .Praia{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .outros{
+    margin-left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .saldo{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .logo{
+    margin-left: -20px;
+    margin-top: 20px;
+  }
+  .nav-icons{
+    column-gap: 0;
+    margin-right: 0px;
+  }
+  .swiper{
+    margin-top: 122px;
+  }
+  .whatsappContato img{
+    width: 55px;
+  }
+  .menu-hamburguer{
+    padding: 0 0;
+  }
+  .usuario img{
+    width: 25px;
+  }
+  .nav-icons .bx{
+    font-size: 25px;
+  }
+  #pesquisa{
+    display: none;
+  }
+  .span6 a{
+  display:none;
+  }
+  .navbar{
+    display: flex;
+    column-gap: 1px;
+  }
+}
+@media (max-width: 375px){
+  menu .itens{
+    padding-top: 5px;
+    justify-items: center;
+    margin: 2px;
+  }
+  #busca{
+    padding: 0px;
+    font-size: 12px;
+    width: 90px;
+    height: 25px;
+    margin-left: -20px;
+  }
+  .usuario img{
+    width: 30px;
+  }
+  .carrinho span{
+    width: 5px;
+    height: 5px;
+    padding: 7px;
+    top: -6px;
+    right: -6px;
+  }
+}

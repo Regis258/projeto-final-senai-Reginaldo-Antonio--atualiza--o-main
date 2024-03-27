@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Link do CSS -->
+        <link rel="stylesheet" href="/css/style.css">
+        <!--Media Querie CSS-->
+        <link rel="stylesheet" href="/css/mediaQueries.css">
+        <!-- FAV icones -->
+        <link rel="icon" type="image/png" sizes="50x50" href="/imgs/favicon_io/favicon-32x32.png">
+        <!--Icones do google-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!--Fontes do google LATO-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <!--Fontes do GooGle Cabin-->
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- BOX Icones -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!--Light Slider.css-->
+      <link rel="stylesheet" href="/css/lightslider.css">
+      <!--JQuery-->
+      <script src="/JavaScript/Jquery.js"></script>
+      <!--Light slider.js-->
+      <script defer src="/JavaScript/lightslider.js"></script>
+
+      <!--Link Swiper's CSS-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <!--Script da página-->
+    <script defer src="/JavaScript/script.js"></script>
+    <title>Projeto curso</title>
+</head>
+<body>
+ <!-- Navbar -->
+ <header id="header">
+    <div class="nav container">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="/imgs/lady-Chic.png" alt="">
+            </a>
+        </div>
+        <!--Botão menu e hamburguer-->
+        <div class="span-menu busca-fixed">
+            <div class="menu-hamburguer" id="hamburguer">
+                <span class="span6" onclick="clickMenu()">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </span>
+                    <div class="span6" onclick="clickMenu()">
+                        <a href="#"><span class="span6">menu</span><a>
+                    </div>
+            </div>
+        </div>
+        
+        <!--Links-->
+        <ul class="navbar">        
+            <span class="validity"></span>
+            <div class="caixa-de-busca">
+                <span class="material-symbols-outlined" id="pesquisa">
+                    search
+                    </span>
+                <input type="text" id="busca" placeholder="Pesquise aqui">
+                
+            </div>
+        </ul>
+        
+        <!--Icones-->
+        <div class="nav-icons">
+            <a href="/html/login.html" class="usuario">
+                <img src="/svg/account_circle_FILL1_wght400_GRAD0_opsz48.png" alt="Login"></a>
+            <a href="#" class="carrinho"><i class='bx bxs-cart'><span class="contadorSpan">0</span></a></i></a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+    </div>
+    
+    <!-- Inicio do SubMenu de itens-->
+    <menu id="itens" class="itens">
+            <li class="lancamentos"><a href="#">Lançamentos<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu"">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            
+            <li class="favoritos"><a href="#">Favoritos<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="estilos"><a href="#">Estilos<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Plus-Size</a></li>
+                    <li><a href="#">Blusas</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Vestidos</a></li>
+                    <li><a href="#">Bolsas</a></li>
+                    <li><a href="#">Sapatos</a></li>
+                    <li><a href="#">Macacões</a></li>
+                </ul>
+            </li>
+            <li class="plus"><a href="#">Plus-Size<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="paraFesta"><a href="#">Festa</a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="Praia"><a href="#">Praia</a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="outros"><a href="#">Outros<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="saldo"><a href="/html/galeria.html">Galeria</a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+    </menu>
+
+</header>
+
+        <!-- Slider main container -->
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="/imgs/swiper/consumidor-desk-b9xbrvvm70.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="/imgs/swiper/sem-t-tulo-1-bkdpwz1ga6.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="/imgs/swiper/alto-ver-o-site-7iucko8lls.jpg" alt=""></a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+    <!--Fim do swipper-->
+    
+    <!-- INICIO PRODUTOS PLUS-SIZE-->
+    <div class="linha-com-texto">
+        <span><a href="#">Plus-Size</a></span>
+    </div>
+    <div class="produtosAll" id="produtos-plus">
+        <ul id="autoWidthh" class="plus-size">
+            <!-- Item 1 -->
+            <li class="item-a">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/plus size/+size 1.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 2 -->
+            <li class="item-b">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/plus size/+size 2.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 3 -->
+            <li class="item-c">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/plus size/+size 3.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 4 -->
+            <li class="item-d">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/plus size/+size 4.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 5 -->
+            <li class="item-e">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/plus size/+size 5.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 6 -->
+            <li class="item-f">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/plus size/+size 6.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="#" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 7 -->
+        </ul>
+    </div>
+        <!-- INICIO PRODUTOS Blusas-->
+        <div class="linha-com-texto">
+            <span><a href="#">BLUSAS</a></span>
+        </div>
+        <div class="produtosAll" id="produtos-plus">
+            <ul id="autoWidthh" class="sessaoBlusas">
+                <!-- Item 1 -->
+                <li class="item-a">
+                    <!--Caixa Slider items-->
+                    <div class="caixa">
+                        <!--caixa de imagem-->
+                        <div class="slide-img">
+                            <img src="/imgs/imagens/blusas/blusa 1.jpg" draggable="false" alt="">
+                            <!--overlayer-->
+                            <div class="overlay">
+                                <!--botão de comprar-->
+                                <button class="comprar-btn">Compre agora</button>
+                            </div>
+                        </div>
+                        <!--caixa Detalhes-->
+                        <div class="caixa-detalhes">
+                            <!--Detalhes-->
+                            <div class="tipo">
+                                <a href="">teste</a>
+                                <span>sss</span>
+                            </div>
+                            <!--Preço-->
+                            <a href="" class="preco">75R$</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 2 -->
+                <li class="item-b">
+                    <!--Caixa Slider items-->
+                    <div class="caixa">
+                        <!--caixa de imagem-->
+                        <div class="slide-img">
+                            <img src="/imgs/imagens/blusas/blusa 2.jpg" draggable="false" alt="">
+                            <!--overlayer-->
+                            <div class="overlay">
+                                <!--botão de comprar-->
+                                <button class="comprar-btn">Compre agora</button>
+                            </div>
+                        </div>
+                        <!--caixa Detalhes-->
+                        <div class="caixa-detalhes">
+                            <!--Detalhes-->
+                            <div class="tipo">
+                                <a href="">teste</a>
+                                <span>sss</span>
+                            </div>
+                            <!--Preço-->
+                            <a href="" class="preco">75R$</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 3 -->
+                <li class="item-c">
+                    <!--Caixa Slider items-->
+                    <div class="caixa">
+                        <!--caixa de imagem-->
+                        <div class="slide-img">
+                            <img src="/imgs/imagens/blusas/blusa 3.jpg" draggable="false" alt="">
+                            <!--overlayer-->
+                            <div class="overlay">
+                                <!--botão de comprar-->
+                                <button class="comprar-btn">Compre agora</button>
+                            </div>
+                        </div>
+                        <!--caixa Detalhes-->
+                        <div class="caixa-detalhes">
+                            <!--Detalhes-->
+                            <div class="tipo">
+                                <a href="">teste</a>
+                                <span>sss</span>
+                            </div>
+                            <!--Preço-->
+                            <a href="" class="preco">75R$</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 4 -->
+                <li class="item-d">
+                    <!--Caixa Slider items-->
+                    <div class="caixa">
+                        <!--caixa de imagem-->
+                        <div class="slide-img">
+                            <img src="/imgs/imagens/blusas/blusa 4.jpg" draggable="false" alt="">
+                            <!--overlayer-->
+                            <div class="overlay">
+                                <!--botão de comprar-->
+                                <button class="comprar-btn">Compre agora</button>
+                            </div>
+                        </div>
+                        <!--caixa Detalhes-->
+                        <div class="caixa-detalhes">
+                            <!--Detalhes-->
+                            <div class="tipo">
+                                <a href="">teste</a>
+                                <span>sss</span>
+                            </div>
+                            <!--Preço-->
+                            <a href="" class="preco">75R$</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 5 -->
+                <li class="item-e">
+                    <!--Caixa Slider items-->
+                    <div class="caixa">
+                        <!--caixa de imagem-->
+                        <div class="slide-img">
+                            <img src="/imgs/imagens/blusas/blusa 5.jpg" draggable="false" alt="">
+                            <!--overlayer-->
+                            <div class="overlay">
+                                <!--botão de comprar-->
+                                <button class="comprar-btn">Compre agora</button>
+                            </div>
+                        </div>
+                        <!--caixa Detalhes-->
+                        <div class="caixa-detalhes">
+                            <!--Detalhes-->
+                            <div class="tipo">
+                                <a href="">teste</a>
+                                <span>sss</span>
+                            </div>
+                            <!--Preço-->
+                            <a href="" class="preco">75R$</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 6 -->
+                <li class="item-f">
+                    <!--Caixa Slider items-->
+                    <div class="caixa">
+                        <!--caixa de imagem-->
+                        <div class="slide-img">
+                            <img src="/imgs/imagens/blusas/blusa 6.jpg" draggable="false" alt="">
+                            <!--overlayer-->
+                            <div class="overlay">
+                                <!--botão de comprar-->
+                                <button class="comprar-btn">Compre agora</button>
+
+                            </div>
+                        </div>
+                        <!--caixa Detalhes-->
+                        <div class="caixa-detalhes">
+                            <!--Detalhes-->
+                            <div class="tipo">
+                                <a href="">teste</a>
+                                <span>sss</span>
+                            </div>
+                            <!--Preço-->
+                            <a href="#" class="preco">75R$</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 7 -->
+            </ul>
+        </div>
+    </div>
+    <!-- INICIO PRODUTOS Calças-->
+    <div class="linha-com-texto">
+        <span><a href="#">Calças</a></span>
+    </div>
+    <div class="produtosAll" id="produtos-plus">
+        <ul id="autoWidthh" class="sessaoCalcas">
+            <!-- Item 1 -->
+            <li class="item-a">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/calças/calça 1.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 2 -->
+            <li class="item-b">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/calças/calça 2.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 3 -->
+            <li class="item-c">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/calças/calça 3.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 4 -->
+            <li class="item-d">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/calças/calça 4.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 5 -->
+            <li class="item-e">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/calças/calça 5.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 6 -->
+            <li class="item-f">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/calças/calça 6.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="#" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 7 -->
+        </ul>
+    </div>
+    <!-- INICIO PRODUTOS Calças-->
+    <div class="linha-com-texto">
+        <span><a href="#">Macacões</a></span>
+    </div>
+    <div class="produtosAll" id="produtos-plus">
+        <ul id="autoWidthh" class="macacoes">
+            <!-- Item 1 -->
+            <li class="item-a">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/Macacões/macacao 1.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 2 -->
+            <li class="item-b">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/Macacões/macacao 2.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 3 -->
+            <li class="item-c">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/Macacões/macacao 3.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 4 -->
+            <li class="item-d">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/Macacões/macacao 4.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 5 -->
+            <li class="item-e">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/Macacões/macacao 5.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 6 -->
+            <li class="item-f">
+                <!--Caixa Slider items-->
+                <div class="caixa">
+                    <!--caixa de imagem-->
+                    <div class="slide-img">
+                        <img src="/imgs/imagens/Macacões/macacao 6.jpg" draggable="false" alt="">
+                        <!--overlayer-->
+                        <div class="overlay">
+                            <!--botão de comprar-->
+                            <button class="comprar-btn">Compre agora</button>
+
+                        </div>
+                    </div>
+                    <!--caixa Detalhes-->
+                    <div class="caixa-detalhes">
+                        <!--Detalhes-->
+                        <div class="tipo">
+                            <a href="">teste</a>
+                            <span>sss</span>
+                        </div>
+                        <!--Preço-->
+                        <a href="#" class="preco">75R$</a>
+                    </div>
+                </div>
+            </li>
+            <!-- Item 7 -->
+        </ul>
+    </div>
+    <div class="whatsappContato">
+
+        <a href="https://api.whatsapp.com/send?phone=551199999999&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20nosso%20site%20!">
+            <img src="/svg/icons8-whatsapp.svg" draggable="false" alt="">
+        </a>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para obter mais informações.</p>
+            <ul>
+                <li><a href="#">Telefone: 99999999</a></li>
+                <li><a href="#">Email: LadyChic.contato@gmail.com</a></li>
+                <li><a href="#">Endereço: Rua Exemplo, 123 - Cidade, Estado</a></li>
+            </ul>
+            <div class="historiaIndex">
+                <a href="/html/historia.html"><h4>História da empresa</h4></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lady Chic | Todos os direitos reservados.</p>
+            </div>
+                <p>Nos siga nas Redes Sociais</p>
+            <div class="redeSociais">
+                <a href="#"><img src="/svg/icons8-facebook-novo.svg" alt=""></a>
+                <a href="#"><img src="/svg/icons8-instagram.svg" alt=""></a>
+                <a href="#"><img src="/svg/icons8-tiktok.svg" alt=""></a>
+                <a href="#"><img src="/svg/icons8-twitter.svg" alt=""></a>
+                <a href="#"><img src="/svg/icons8-whatsapp.svg" alt=""></a>
+                <a href="#"><img src="/svg/icons8-youtube.svg" alt=""></a>
+            </div>
+        </div>   
+      </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/JavaScript/swiper.js"></script>
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>

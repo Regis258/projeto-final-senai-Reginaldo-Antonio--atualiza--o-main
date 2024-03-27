@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Link do CSS -->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/historia.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <!--Media Querie CSS-->
+        <link rel="stylesheet" href="/css/mediaQueries.css">
+        <!-- FAV icones -->
+        <link rel="icon" type="image/png" sizes="50x50" href="/imgs/favicon_io/favicon-32x32.png">
+        <!--Icones do google-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!--Fontes do google LATO-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <!--Fontes do GooGle Cabin-->
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- BOX Icones -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!--Light Slider.css-->
+      <link rel="stylesheet" href="/css/lightslider.css">
+      <!--JQuery-->
+      <script src="/JavaScript/Jquery.js"></script>
+      <!--Light slider.js-->
+      <script defer src="/JavaScript/lightslider.js"></script>
+
+      <!--Link Swiper's CSS-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <!--Script da página-->
+    <script defer src="/JavaScript/script.js"></script>
+    <title>Projeto curso</title>
+</head>
+<body>
+ <!-- Navbar -->
+ <header id="header">
+    <div class="nav container">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="/imgs/lady-Chic.png" alt="">
+            </a>
+        </div>
+        <!--Botão menu e hamburguer-->
+        <div class="span-menu busca-fixed">
+            <div class="menu-hamburguer" id="hamburguer">
+                <span class="span6" onclick="clickMenu()">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </span>
+                    <div class="span6" onclick="clickMenu()">
+                        <a href="#"><span class="span6">menu</span><a>
+                    </div>
+            </div>
+        </div>
+        
+        <!--Links-->
+        <ul class="navbar">        
+            <span class="validity"></span>
+            <div class="caixa-de-busca">
+                <span class="material-symbols-outlined" id="pesquisa">
+                    search
+                    </span>
+                <input type="text" id="busca" placeholder="Pesquise aqui">
+                
+            </div>
+        </ul>
+        
+        <!--Icones-->
+        <div class="nav-icons">
+            <a href="/html/login.html" class="usuario">
+                <img src="/svg/account_circle_FILL1_wght400_GRAD0_opsz48.png" alt="Login"></a>
+            <a href="#" class="carrinho"><i class='bx bxs-cart'><span class="contadorSpan">0</span></a></i></a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+    </div>
+    
+    <!-- Inicio do SubMenu de itens-->
+    <menu id="itens" class="itens">
+            <li class="lancamentos"><a href="#">Lançamentos<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu"">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            
+            <li class="favoritos"><a href="#">Favoritos<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="estilos"><a href="#">Estilos<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Plus-Size</a></li>
+                    <li><a href="#">Blusas</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Vestidos</a></li>
+                    <li><a href="#">Bolsas</a></li>
+                    <li><a href="#">Sapatos</a></li>
+                    <li><a href="#">Macacões</a></li>
+                </ul>
+            </li>
+            <li class="plus"><a href="#">Plus-Size<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="paraFesta"><a href="#">Festa</a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="Praia"><a href="#">Praia</a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="outros"><a href="#">Outros<img src="/svg/arrow.svg" alt=""></a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+            <li class="saldo"><a href="/html/galeria.html">Galeria</a>
+                <ul class="submenu">
+                    <li><a href="#">Blusa de Algodão</a></li>
+                    <li><a href="#">Blusa de Seda</a></li>
+                    <li><a href="#">Blusa de Lã</a></li>
+                </ul>
+            </li>
+    </menu>
+</header>
+<div class="containerHistoria">
+    <h1 class="title">LadyChic: O Reino Virtual da Elegância</h1>
+    <p class="paragraph">Havia um tempo em que a moda não era apenas uma expressão de estilo, mas uma jornada pessoal rumo à autoconfiança e elegância. Nesse cenário, emergiu uma marca que não apenas vendia roupas, mas transformava o simples ato de vestir-se em uma experiência digna de conto de fadas: LadyChic.</p>
+
+    <p class="paragraph">A história começou em uma pequena sala, onde uma jovem visionária, Emily, sonhava com algo grandioso. Inspirada pela sofisticação e pelo poder da moda feminina, ela decidiu criar uma marca que não apenas oferecesse roupas, mas também despertasse a força interior de cada mulher que a vestisse.</p>
+
+    <p class="paragraph">Assim, nasceu LadyChic, uma loja online que se tornaria o reino virtual da elegância. Emily colocou todo o seu coração e criatividade na concepção de cada peça, desde os vestidos fluidos que dançavam com o vento até os ternos impecáveis que transmitiam confiança em cada costura.</p>
+
+    <p class="paragraph">O site de LadyChic não era apenas uma plataforma de compras; era um portal para um mundo onde todas as mulheres poderiam se sentir como verdadeiras rainhas. Com uma interface intuitiva e imagens deslumbrantes, o site convidava as clientes a explorar uma vasta gama de estilos, do clássico ao contemporâneo, do casual ao luxuoso.</p>
+
+    <p class="paragraph">Mas LadyChic não era apenas sobre roupas bonitas; era sobre criar uma comunidade de mulheres que compartilhavam o amor pela moda e pela autoexpressão. Emily sabia que a verdadeira beleza vinha de dentro, então ela incentivava as clientes a compartilhar suas histórias e inspirações, criando um espaço onde a empatia e a positividade floresciam.</p>
+
+    <p class="paragraph">À medida que LadyChic crescia, seu compromisso com a qualidade e a sustentabilidade também se fortalecia. Emily trabalhava com artesãos locais, utilizando tecidos e materiais de alta qualidade, enquanto implementava práticas éticas em toda a cadeia de produção.</p>
+
+    <p class="paragraph">Com o tempo, LadyChic se tornou mais do que uma simples loja de roupas; era um símbolo de empoderamento feminino e estilo atemporal. Mulheres de todos os cantos do mundo se voltavam para LadyChic em busca não apenas de roupas, mas de uma experiência que as fizesse sentir-se verdadeiramente especiais.</p>
+
+    <p class="paragraph">E assim, o legado de LadyChic continuou a crescer, inspirando gerações de mulheres a abraçar sua individualidade, expressar sua criatividade e caminhar com confiança pelo mundo, vestidas com elegância e graciosidade, como verdadeiras damas de um reino virtual onde a moda reinava suprema.</p>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/JavaScript/swiper.js"></script>
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>
